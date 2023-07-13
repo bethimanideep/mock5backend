@@ -7,7 +7,7 @@ const app = express();
 app.use(express.json());
 app.use(cors())
 app.get('/', (req, res) => {
-    res.json("welcome")
+    res.json("welcome") 
 });
 //signup
 app.post('/signup', async (req, res) => {
